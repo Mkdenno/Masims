@@ -1,0 +1,48 @@
+.intro-section{
+    background-color: var(--primary-color);
+    padding-top: 8rem;
+    height: 100vh;
+}
+.home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.homeimage img{
+    position: absolute;
+width: 60%;
+right: 0;
+
+}
+.homeabout{
+    color: var(--secondary-color);
+}
+.homeabout{
+    color: var(--secondary-color);
+    width: 70%;
+}
+.homeabout h1{
+    font-size: 68px;
+}
+.homeabout p{
+    margin: 2rem 0;
+    line-height: 3rem;
+}
+.homebtn{
+    border: 1px solid white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    width:11rem;
+    padding:0.8rem  1.6rem;
+    margin:2.5rem 0.5rem;
+}
+.sponsored{
+    margin: 2rem 0;
+}
+.sponsored  img{
+    margin-right: 2rem;
+}
+.sponsored  label{
+    margin-right: 2rem;
+}

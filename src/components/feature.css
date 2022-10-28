@@ -1,0 +1,20 @@
+.introfeature{
+    margin:5rem 0;
+}
+.qualityfeatures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.featureImages{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 4rem 0;
+}
+.imagediv{
+    width: 15rem;
+}

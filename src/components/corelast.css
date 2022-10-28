@@ -1,0 +1,25 @@
+.corelast{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.corebtn {
+  border: 1px solid white;
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 2rem 0;
+}
+.corefeat h6 {
+  color: var(--primary-color);
+}
+.corefeat h1 {
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+
+.corefeat p {
+  margin: 3rem 0;
+}

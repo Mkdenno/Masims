@@ -1,0 +1,12 @@
+.working{
+    background-color: var(--primary-color);
+    padding: 4rem;
+}
+.workingfunctions{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: white;
+padding: 2rem;
+}

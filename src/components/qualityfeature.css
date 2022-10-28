@@ -1,0 +1,32 @@
+.introfeature{
+    margin:5rem 0;
+    flex-wrap: wrap;
+}
+.qualityfeatures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.qualityfea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.smartIm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+    width: 24rem;
+}
+.smartIm img{
+    margin-right: 2rem;
+    margin-top:-2.5rem ;
+}
+.qualitysmartfeatures h5{
+margin: 1rem 0;
+}

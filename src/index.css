@@ -1,0 +1,14 @@
+:root{
+    --primary-color: #1F3E76;
+    --secondary-color: #FFFFFF;
+    --header-color: #244886;
+    --text-color: #0F2137;
+    --subtext-color: #343D48;
+    --transition: all 400ms ease-in-out;
+  }
+
+  body{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}

@@ -1,0 +1,9 @@
+.intro-payment{
+    margin: 2rem 0;
+    padding: 4rem;
+}
+.paysec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

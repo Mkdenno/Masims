@@ -1,0 +1,30 @@
+nav{
+    background-color: var(--primary-color);
+    width: 100%;
+    padding: 1.3rem 0;
+    position: fixed;
+    z-index: 1;
+}
+.navbars{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--secondary-color);
+}
+.links ul{
+    display: flex;
+    list-style: none;
+}
+.links ul li{
+margin:0 2rem;
+}
+.homelink{
+    color: green;
+}
+.navbtn{
+    border: 1px solid white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    
+}

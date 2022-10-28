@@ -1,0 +1,21 @@
+.heading1{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.heading1 h4{
+    color: #244886;
+    left: 0;
+}
+.heading1 h1{
+    font-size: 2.5rem;
+    margin:1rem 0 2rem 0;
+
+}
+.descriptioncore1{
+    margin: 3rem 0;
+
+}
+.descriptioncore1 img{
+    margin-right: 1rem;
+}
