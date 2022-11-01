@@ -1,0 +1,16 @@
+.footer-intro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
+    border-top: 1px solid rgb(201, 199, 199);
+    margin: 4rem 0;
+}
+.abts{
+    margin-top: 2rem;
+}
+.footlast{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,30 @@
+
+.Frequently{
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding-top: 6rem;
+
+}
+.questions{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 2rem;
+}
+.one h6{
+    width: 600px;
+    cursor: pointer;
+    }
+.iconpm{
+    display: flex;
+}
+.icon{
+    color: green;
+    font-size: 23px;
+    border: none;
+}
