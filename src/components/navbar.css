@@ -28,3 +28,60 @@ margin:0 2rem;
     font-size: 1.2rem;
     
 }
+.navbtn.active:hover{
+background-color:red;
+}
+.timesicon{
+    display: none;
+}
+.navbaricon{
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .links ul{
+
+        flex-direction:column ;
+        position: absolute;
+        left: 0;
+        top:0;
+        background-color: white;
+        height: 100vh;
+        padding-top:6rem ;
+        width: 40%;
+        display: none;
+        animation: animout 0.5s ease-in-out;
+    }
+    .links ul li{
+        color: black;
+        padding: 1rem 0;
+        border-bottom: 1px solid rgb(224, 219, 219);
+        }
+        .timesicon{
+            display: block;
+            color: black;
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            font-size: 25px;
+        }
+        .navbaricon{
+            display: block;
+            font-size: 30px;
+        }
+        .links.active ul{
+            display: block;
+            animation: animate 0.5s ease-in;
+            animation: animate 0.5s ease-in;
+        }
+
+        @keyframes animate {
+            0% {transform: translateX(-100%) ;} 
+            100% {transform: translateX(0%) ;}
+        }
+
+        @keyframes animout {
+            0% {transform: translateX(0%) ;} 
+            100% {transform: translateX(-100%) ;}
+        }
+}

@@ -16,6 +16,12 @@ padding-top: 6rem;
     margin: auto;
     margin-top: 2rem;
 }
+.one{
+    width: 100%;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
 .one h6{
     width: 600px;
     cursor: pointer;

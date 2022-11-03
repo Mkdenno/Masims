@@ -7,7 +7,7 @@ const Home = () => {
       <section id="home" className="intro-section ">
         <div className=" container home">
           <div className="row">
-            <div className="col-md-7">
+            <div className="col-md-7 homeandicons">
               <div className="homeabout">
                 <h1>Experience your ultimate mobile application</h1>
                 <p>

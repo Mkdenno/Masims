@@ -2,6 +2,7 @@
     background-color: var(--primary-color);
     padding-top: 8rem;
     height: 100vh;
+    border-bottom-right-radius:300px;
 }
 .home{
     display: flex;
@@ -45,4 +46,30 @@ right: 0;
 }
 .sponsored  label{
     margin-right: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .homeimage img{
+     display: none;
+    }
+
+    .homeabout h1{
+        font-size: 48px;
+    }
+    .homeabout p{
+        margin: 1rem 0;
+        line-height: 2rem;
+    }
+    .homeandicons{
+        margin: auto;
+    }
+    .homeabout{
+        width: 100%;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+        padding:0 2rem;
+    }
 }
